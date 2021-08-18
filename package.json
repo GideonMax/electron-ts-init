@@ -4,14 +4,14 @@
   "description": "A CLI Tool for initializing electron projects with TpyeScript support and electron-builder, letting you build your app into an installer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GideonMax/electron-ts-init.git"
   },
   "bin": {
-    "electron-ts-init":"./index.js"
+    "electron-ts-init": "./index.js"
   },
   "keywords": [
     "electron",
