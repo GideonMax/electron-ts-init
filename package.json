@@ -10,6 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/GideonMax/electron-ts-init.git"
   },
+  "files": ["AssetFiles","lib","index.js","LICENSE","package-lock.json","package.json","README.md"]
+  ,
   "bin": {
     "electron-ts-init": "./index.js",
     "eti": "./index.js"
