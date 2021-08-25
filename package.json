@@ -1,6 +1,6 @@
 {
   "name": "@gideonmax/electron-ts-init",
-  "version": "1.0.0",
+  "version": "1.0.1-0",
   "description": "A CLI Tool for initializing electron projects with TpyeScript support and electron-builder, letting you build your app into an installer",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/GideonMax/electron-ts-init.git"
   },
-  "files": ["AssetFiles","lib","index.js","LICENSE","package-lock.json","package.json","README.md"]
-  ,
+  "files": [
+    "AssetFiles",
+    "lib",
+    "index.js",
+    "LICENSE",
+    "package-lock.json",
+    "package.json",
+    "README.md"
+  ],
   "bin": {
     "electron-ts-init": "./index.js",
     "eti": "./index.js"
