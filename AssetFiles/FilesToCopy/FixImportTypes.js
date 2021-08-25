@@ -9,8 +9,7 @@ function EditRecursively(Directory){
         if(dirent.isFile()){
             if(path.substr(path.length-2)=="js"){
                 let content= fs.readFileSync(path,'utf-8');
-                content=content.replaceAll("Object.defineProperty(exports, \"__esModule\", { value: true });\n","");
-                content=content.replaceAll("Object.defineProperty(exports, \"__esModule\", { value: true });\r\n","");
+                content=content.replace(/Object\.defineProperty\(exports, *\"__esModule\", *{ *value: *true *}\);(\r\n|\n)/g,"");
                 fs.writeFileSync(path,content,{encoding:'utf-8'});
             }
         }

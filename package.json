@@ -11,7 +11,8 @@
     "url": "git+https://github.com/GideonMax/electron-ts-init.git"
   },
   "bin": {
-    "electron-ts-init": "./index.js"
+    "electron-ts-init": "./index.js",
+    "eti": "./index.js"
   },
   "keywords": [
     "electron",
