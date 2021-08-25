@@ -1,6 +1,6 @@
 {
   "name": "@gideonmax/electron-ts-init",
-  "version": "1.0.1-0",
+  "version": "1.0.1",
   "description": "A CLI Tool for initializing electron projects with TpyeScript support and electron-builder, letting you build your app into an installer",
   "main": "index.js",
   "scripts": {
