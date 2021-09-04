@@ -1,6 +1,6 @@
 {
   "name": "@gideonmax/electron-ts-init",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A CLI Tool for initializing electron projects with TypeScript support and electron-builder, letting you build your app into an installer",
   "main": "index.js",
   "scripts": {
